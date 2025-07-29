@@ -4,7 +4,7 @@
 
 ## Overview
 
-An AI-powered tool that analyzes real-time tweets to detect crisis events like riots, civil unrest, and natural disasters, providing live information to people in affected areas. This system combines machine learning with real-time data collection to enhance situational awareness during emergency situations.
+An AI-powered tool that analyzes real-time tweets to detect crisis events like riots, civil unrest, and natural disasters, providing live information to people in affected areas. This system combines machine learning with real-time data collection using Selenium to enhance situational awareness during emergency situations.
 
 ## Project Structure
 
@@ -83,7 +83,7 @@ An AI-powered tool that analyzes real-time tweets to detect crisis events like r
 ### Core Files
 
 - **`Interface.ipynb`**: Contains the data extraction logic and user interface for the crisis detection system. This notebook handles:
-  - Tweet data collection and preprocessing
+  - Tweet data collection using Selenium and preprocessing
   - Real-time data extraction workflows
   - User interface components for interaction
 
